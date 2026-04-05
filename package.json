@@ -1,19 +1,15 @@
 {
-  "name": "codeblade-server",
+  "name": "codeblade-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Codeblade AI Engine",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "@google/generative-ai": "^0.24.1",
-    "axios": "^1.14.0",
-    "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.4.0",
+    "@google/generative-ai": "^0.21.0"
   }
 }
